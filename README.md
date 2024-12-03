@@ -57,6 +57,3 @@ If you notice errors or have suggestions for improvement, feel free to open an i
 
 This repository is for educational purposes and does not include the book’s proprietary content. For more information about the book, visit the official website.
 ---
-
-Happy coding! 😊
-```

@@ -9,42 +9,47 @@ less than or equal to
 * Test whether an item is not in a list
 '''
 
-# Test for equality with strings
+# 1. Tests for equality and inequality with strings
 fruit = "apple"
 print(fruit == "apple")  # True
+print(fruit == "orange")  # False
 
-# Test for inequality with strings
-color = "blue"
-print(color != "red")  # True
-
-# Test using the lower() method
+# 2. Tests using the lower() method
 name = "John"
 print(name.lower() == "john")  # True
+print(name.lower() == "JOHN")  # False
 
-# Numerical test for equality
+# 3. Numerical tests for equality and inequality
 age = 25
 print(age == 25)  # True
+print(age != 25)  # False
 
-# Numerical test for inequality
-temperature = 72
-print(temperature != 68)  # True
-
-# Numerical test for greater than and less than
+# 4. Numerical tests for greater than and less than
 height = 180
-print(height > 160 and height < 200)  # True
+print(height > 160)  # True
+print(height < 160)  # False
 
-# Numerical test for greater than or equal to
+# 5. Numerical tests for greater than or equal to and less than or equal to
 weight = 150
 print(weight >= 150)  # True
+print(weight <= 140)  # False
 
-# Test using the 'or' keyword
+# 6. Tests using the 'and' keyword
+temperature = 72
+print(temperature > 60 and temperature < 80)  # True
+print(temperature > 80 and temperature < 100)  # False
+
+# 7. Tests using the 'or' keyword
 day = "Saturday"
 print(day == "Sunday" or day == "Saturday")  # True
+print(day == "Monday" or day == "Tuesday")  # False
 
-# Test whether an item is in a list
+# 8. Test whether an item is in a list
 favorite_foods = ["pizza", "burger", "pasta"]
 print("pizza" in favorite_foods)  # True
+print("sushi" in favorite_foods)  # False
 
-# Test whether an item is not in a list
+# 9. Test whether an item is not in a list
 banned_users = ["user123", "user456", "user789"]
 print("user999" not in banned_users)  # True
+print("user123" not in banned_users)  # False

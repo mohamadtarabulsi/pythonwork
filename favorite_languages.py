@@ -9,6 +9,6 @@ favorite_languages = {
 language = favorite_languages['mo'].title()
 print(f"Mo's favorite language is {language}")
 
-for key, value in favorite_languages.items():
-    print(f"\nName: {key}")
-    print(f"Favorite Language: {value}")
+for name, language in favorite_languages.items():
+    print(f"\nName: {name}")
+    print(f"Favorite Language: {language}")

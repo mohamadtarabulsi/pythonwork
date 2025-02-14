@@ -48,3 +48,24 @@ print(alien_3)
 del alien_3['points'] # Deleted key-value pair is deleted permanently
 print(alien_3)
 
+# User.py 
+
+user_0 = {
+    'username': 'efermi',
+    'first': 'enrico',
+    'last': 'fermi',
+}
+
+for key, value in user_0.items():
+    print(f"\nKey: {key}")
+    print(f"Value: {value}")
+    
+user_1 = {
+    'username': 'mosalem',
+    'first': 'mohamad',
+    'last': 'altarabulsi',
+}
+
+for key, value in user_1.items():
+    print(f"\nKey: {key}")
+    print(f"Value: {value}")

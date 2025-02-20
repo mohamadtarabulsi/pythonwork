@@ -1,6 +1,5 @@
 # 6-4 Glossary 2:
 
-
 glossary = {
     'string': 'A series of characters',
     'comment': 'A note in a program that the Python interpreter ignores.',
@@ -9,17 +8,6 @@ glossary = {
     'dictionary': "A collection of key-value pairs.",
 }
 
-word = 'string'
-print(f"\n{word.title()}: {glossary[word]}.")
-
-word = 'comment'
-print(f"\n{word.title()}: {glossary[word]}")
-
-word = 'list'
-print(f"\n{word.title()}: {glossary[word]}")
-
-word = 'loop'
-print(f"\n{word.title()}: {glossary[word]}")
-
-word = 'dictionary'
-print(f"\n{word.title()}: {glossary[word]}")
+for k, v in glossary.items():
+    print(f"\nWord: {k.title()}")
+    print(f"Definition: {v.title()}")
